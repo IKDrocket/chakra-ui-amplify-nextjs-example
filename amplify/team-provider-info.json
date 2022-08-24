@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chakrauiamplifynextj-dev-172912-authRole",
+      "UnauthRoleArn": "arn:aws:iam::128602135508:role/amplify-chakrauiamplifynextj-dev-172912-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::128602135508:role/amplify-chakrauiamplifynextj-dev-172912-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-chakrauiamplifynextj-dev-172912-deployment",
+      "UnauthRoleName": "amplify-chakrauiamplifynextj-dev-172912-unauthRole",
+      "StackName": "amplify-chakrauiamplifynextj-dev-172912",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:128602135508:stack/amplify-chakrauiamplifynextj-dev-172912/b1231cc0-0fe1-11ed-9e4c-0e88dec5519f",
+      "AmplifyAppId": "d2ksvn2i0pmmgz",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-chakrauiamplifynextj-dev-172912-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "chakrauiamplifynextj7a4ee4b7": {}
+      },
+      "function": {
+        "chakrauiamplifynextj7a4ee4b7PreSignup": {
+          "DOMAINALLOWLIST": "eviry.com",
+          "deploymentBucketName": "amplify-chakrauiamplifynextj-dev-172912-deployment",
+          "s3Key": "amplify-builds/chakrauiamplifynextj7a4ee4b7PreSignup-2f6f4971526345586e65-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-allowlist"
+  ],
+  "parentResource": "chakrauiamplifynextj7a4ee4b7",
+  "functionName": "chakrauiamplifynextj7a4ee4b7PreSignup",
+  "resourceName": "chakrauiamplifynextj7a4ee4b7PreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "chakrauiamplifynextj7a4ee4b7PreSignup",
+  "skipEdit": true,
+  "DOMAINALLOWLIST": "eviry.com",
+  "enableCors": false
+}
