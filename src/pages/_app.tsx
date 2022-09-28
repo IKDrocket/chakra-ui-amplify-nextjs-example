@@ -14,17 +14,23 @@ I18n.putVocabularies({
     'Sign Up': 'サインアップ',
   },
 });
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
 import { Layout } from '@/components/Layout';
 
 import config from '../aws-exports';
 Amplify.configure(config);
 
+const queryClient = new QueryClient();
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <QueryClientProvider client={queryClient}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </QueryClientProvider>
     </ChakraProvider>
   );
 }

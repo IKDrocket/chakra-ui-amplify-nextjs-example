@@ -14,6 +14,7 @@
     "@chakra-ui/react": "^2.2.4",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@tanstack/react-query": "^4.7.1",
     "aws-amplify": "^4.3.29",
     "framer-motion": "^6.5.1",
     "jotai": "^1.7.6",
