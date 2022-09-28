@@ -8,7 +8,7 @@ export const ThemeButton = () => {
       <IconButton
         icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
         onClick={toggleColorMode}
-        variant="ghost"
+        variant="outline"
         aria-label="theme change"
       />
     </Box>
