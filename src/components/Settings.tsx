@@ -25,6 +25,7 @@ export const Settings = () => {
         variant="outline"
         _active={{ bg: '#aca995' }}
         color={useColorModeValue('gray.800', 'gray.300')}
+        boxSize="32px"
       />
       <MenuList mr={4}>
         <MenuItem>

@@ -10,6 +10,7 @@ export const ThemeButton = () => {
         onClick={toggleColorMode}
         variant="outline"
         aria-label="theme change"
+        boxSize="32px"
       />
     </Box>
   );
